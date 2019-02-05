@@ -1,4 +1,4 @@
-![Advanced React & GraphQL](ReactGraphQL.png)
+![Advanced React & GraphQL](public/ReactGraphQL.png)
 
 # Advanced React & GraphQL
 
