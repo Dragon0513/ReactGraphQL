@@ -9,7 +9,8 @@ function hasPermission(user, permissionsNeeded) {
 
       You Have:
 
-      ${user.permissions}
+       ${user.permissions}
+       
       `);
   }
 }
