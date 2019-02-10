@@ -111,7 +111,7 @@ Once we corrected all that Prisma was perfect. I had a `variables.env` that pers
 [![](public/prisma2.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 [![](public/prisma3.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 
-After all this I started uo the GraphQL client side. So I started my created my database in a variable, made a function called createServer which will ingest a schema.graphql and it will match up everything in the schema with resolvers out of a mutations or query. ( Query resolvers have to do with pulling data and mutations resolvers have to do with pushing data.)
+After all this I started on the GraphQL server side. So I started my created my database in a variable, made a function called createServer which will ingest a schema.graphql and it will match up everything in the schema with resolvers out of a mutations or query. ( Query resolvers have to do with pulling data and mutations resolvers have to do with pushing data.)
 
 Then in the index.js, I brought in my variables for env, db and createServer. I have MIDDLEWARE to Install but thats on hold. So I can start my server script which is ran by Nodemon.
 
