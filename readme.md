@@ -1,6 +1,7 @@
-![Advanced React & GraphQL](public/ReactGraphQL.png)
+[![](public/ReactGraphQL.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 
 # Advanced React & GraphQL
+
 
 # My Awesome Project
 This Is An Application That Shows Famous Black Inventors History To Celebrate Black History Month
@@ -89,6 +90,9 @@ Router.onRouteChangeError = () => {
 };
 
 ```
+[![](public/prisma1.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
+[![](public/prisma2.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
+[![](public/prisma3.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 
 
 ## Optimizations.
