@@ -93,7 +93,7 @@ Router.onRouteChangeError = () => {
 
 Setting up Prisma was not easy I had a had ran in to a lot of issues with not finding `prisma` as a command and troubleshooting this issue took up post of my time and finding out my $PATH was correct. I got some help in slack to config /bin and seeing where certain files are in node_modules. they think my node setup might be a little off because I've been running sudo with npm. When I start doing that it can change permissions on important files to root, which means that after that happens I don't have access to those files anymore under my own user account.
 
-Once we corrected all that Prisma was perfect. I had a `variables.env` that personal information and keys that I didn't want the public to be like endpoints and such. Onced I config that, I learned that `prisma deploy` wouldn't work and I had to pass a custom path and had to `prisma deploy --env-file variables.env` Once I deployed it I got a fast message saying the types it shows the types I created and the type of String.I can see the actual database that I created, the users and emails I passed thru. They even have a link in the terminal that GraphQL Database endpoints,in that link has a GraphQL playground that shows you different Queries you can run like so:
+Once we corrected all that Prisma was perfect. I had a `variables.env` that personal information and keys that I didn't want the public to be like endpoints and such. Onced I config that, I learned that `prisma deploy` wouldn't work and I had to pass a custom path and had to `prisma deploy --env-file variables.env` Once I deployed it I got a fast message saying the types it shows the types I created and the type of String. I can see the actual database that I created, the users and emails I passed thru as well. They even have a link in the terminal that GraphQL Database endpoints,in that link has a GraphQL playground that shows you different Queries you can run like so:
 
 
 ```
@@ -111,6 +111,9 @@ Once we corrected all that Prisma was perfect. I had a `variables.env` that pers
 [![](public/prisma2.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 [![](public/prisma3.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 
+After all this I started uo the GraphQL client side. So I started my created my database in a variable, made a function called createServer which will ingest a schema.graphql and it will match up everything in the schema with resolvers out of a mutations or query. ( Query resolvers have to do with pulling data and mutations resolvers have to do with pushing data.)
+
+Then in the index.js, I brought in my variables for env, db and createServer. I have MIDDLEWARE to Install but thats on hold. So I can start my server script which is ran by Nodemon.
 
 ## Optimizations.
 I have to get  GraphQL going on the client side. I would Like to add concurrently, which is a NPM package that allows you to run two scripts at once.
