@@ -96,25 +96,19 @@ Setting up Prisma was not easy I had a had ran in to a lot of issues with not fi
 Once we corrected all that Prisma was perfect. I had a `variables.env` that personal information and keys that I didn't want the public to be like endpoints and such. Onced I config that, I learned that `prisma deploy` wouldn't work and I had to pass a custom path and had to `prisma deploy --env-file variables.env` Once I deployed it I got a fast message saying the types it shows the types I created and the type of String.
 
 ```Deploying service `freshboston` to stage `dev` to server `prisma-us1` 650ms
-
-Changes:
-
+   Changes:
   User (Type)
   + Created type `User`
   + Created field `id` of type `ID!`
   + Created field `name` of type `String!`
   + Created field `updatedAt` of type `DateTime!`
   + Created field `createdAt` of type `DateTime!`
-
-Applying changes 1.5s
-
 ```
-I can see the actual database that I created, the users and emails I passed thru.
+
+I can see the actual database that I created, the users and emails I passed thru. They even have a link in the terminal that GraphQL Database endpoints,in that link has a GraphQL playground that shows you different Queries you can run like so:
+
 
 [![](public/prisma1.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
-
-They even have a link in the terminal that GraphQL Database endpoints,in that link has a GraphQL playground that shows you different Queries you can run like so:
-
 [![](public/prisma2.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 [![](public/prisma3.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 
