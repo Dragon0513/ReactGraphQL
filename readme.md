@@ -113,7 +113,7 @@ Once we corrected all that Prisma was perfect. I had a `variables.env` that pers
 
 After all this I started on the GraphQL server side. So I started my created my database in a variable, made a function called createServer which will ingest a schema.graphql and it will match up everything in the schema with resolvers out of a mutations or query. ( Query resolvers have to do with pulling data and mutations resolvers have to do with pushing data.)
 
-Then in the index.js, I brought in my variables for env, db and createServer. I have MIDDLEWARE to Install but thats on hold. So I can start my server script which is ran by Nodemon.
+Then in the index.js, I brought in my variables for env, db and createServer. I have MIDDLEWARE to Install but thats on hold. So I can start my server script which is ran by Nodemon. I also getting better with the git commands and doing `git checkout -b NewBranch` and making my changes in a separate branch and add all the changes there then switching to the master than merging it. Got used to git pull from changes on the master that the other branches didn't have.
 
 ## Optimizations.
 I have to get  GraphQL going on the client side. I would Like to add concurrently, which is a NPM package that allows you to run two scripts at once.
