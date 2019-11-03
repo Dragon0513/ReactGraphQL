@@ -9,7 +9,7 @@ const Mutation = {
       },
       info
     );
-    console.log(item);
+    return item
   }
 };
 
