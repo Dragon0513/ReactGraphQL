@@ -1,7 +1,11 @@
 {
   "name": "sick-fits-backend",
   "version": "1.0.0",
-  "description": "the backend of sick fits",
+  "author": "John Fleurimond",
+  "repository": {
+    "url": "[![](public/ReactGraphQL.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)"
+  },
+  "description": "[![](public/ReactGraphQL.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)",
   "scripts": {
     "start": "nodemon -e js,graphql -x node src/index.js",
     "debug": "nodemon -e js,graphql -x node --inspect src/index.js",
@@ -41,9 +45,6 @@
     "stripe": "^6.36.0"
   },
   "license": "MIT",
-  "repository": {
-    "url": "wesbos.com"
-  },
   "babel": {
     "presets": [
       "env"

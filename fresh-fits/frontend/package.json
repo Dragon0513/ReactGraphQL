@@ -1,20 +1,23 @@
 {
   "name": "fresh-fits-frontend",
   "version": "1.0.0",
-  "description": "Sick Fits! An example React, GraphQL, Next and Apollo",
+  "author": "John Fleurimond",
+  "repository": {
+    "url": "[![](public/ReactGraphQL.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)"
+  },
+  "description": "[![](public/ReactGraphQL.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)",
   "main": "index.js",
   "scripts": {
     "dev": "next -p 7777",
     "build": "next build",
     "start": "next start",
     "lint": "prettier --write */**/*.{ts,tsx,js} && eslint --fix '*/**/*.{ts,tsx,js}'",
-    "prettier": "prettier --write pages/**/*.{ts,tsx,js,scss,css.json }",
+    "prettier": "prettier --write */**/*.{ts,tsx,js,scss,css.json }",
     "prettier-watch": "onchange  '**/*.{ts,tsx,js}' -- prettier --write {{changed}}",
     "test": "NODE_ENV=test jest --watch",
     "test-win": "SET NODE_ENV=test&& jest --watch",
     "heroku-postbuild": "next build"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "apollo-boost": "^0.1.28",
