@@ -7,7 +7,7 @@ type Mutation {
     price: Int
     image: String
     largeImage: String
-  ), Item!
+  ): Item!
 }
 
 type Query {
