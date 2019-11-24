@@ -147,4 +147,8 @@ Once you clone this repo, `cd` In the project directory for the frontend and bac
 
 3. run `npm run dev` in both folders.
 
+## Jewel♦️
+
+3. run `killall -9 node` in the terminal if something is runnning on `port` for Macs.
+
 
