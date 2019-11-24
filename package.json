@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "[![](public/ReactGraphQL.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JOHNFLEURIMOND/ReactGraphQL.git"
@@ -20,4 +17,5 @@
     "url": "https://github.com/JOHNFLEURIMOND/ReactGraphQL/issues"
   },
   "homepage": "https://github.com/JOHNFLEURIMOND/ReactGraphQL#readme"
+
 }

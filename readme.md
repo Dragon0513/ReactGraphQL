@@ -1,13 +1,12 @@
+# :checkered_flag:What It Looks Like :checkered_flag:: 
+
+
 [![](public/ReactGraphQL.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 
-# Advanced React & GraphQL
+ # How It's Works:white_check_mark::
 
 
-# My Awesome Project
-This Is An Application That Shows Famous Black Inventors History To Celebrate Black History Month
-
-
-## How It's Made
+# How It's Made :nut_and_bolt:🔨 :hammer::wrench::
 ## Frontend
 React.js for Building the interface along with Next.js for server side rendering, routing and tooling.
 
@@ -21,7 +20,8 @@ GraphQL Yoda is an express GraphQL Server for implementating Query and mutation 
 
 Prisma is a GraphQL Database interface that provides a set of GraphQLCRUD API's for MySQL or Postgres Database, schema Definition, Data Relationships, Queried directly from Yoga Server, and Self Hosted.
 
-## Lessons Learned:
+# My Awesome Project 🖥 & Lessons Learned :mortar_board: 
+
 In this tutorial I learned how to do more inline style in React, I rarely do it but Wes Bos has showed me some cool way to bring style via `injectGlobal` or style the components individually from styled-components.
 
 ```
@@ -45,7 +45,7 @@ injectGlobal`
 or
 
 
-## import styled, { ThemeProvider, injectGlobal } from 'styled-components';
+## import styled, { ThemeProvider, injectGlobal } from 'styled-components' 🖌🖍;
 
 
 ```
@@ -121,8 +121,16 @@ Then in the index.js, I brought in my variables for env, db and createServer. I 
 I also getting better with the git commands and doing `git checkout -b NewBranch` and making my changes in a separate branch and add all the changes there then switching to the master than merging it. Got used to git pull from changes on the master that the other branches didn't have and troubleshooting most of the errors.
 
 
-## Optimizations.
+## Optimizations📶.
 I have to get  GraphQL going on the client side. I would Like to add concurrently, which is a NPM package that allows you to run two scripts at once.
+
+
+
+# Portfolio :open_file_folder::
+
+** :computer: 🇭🇹  WEBSITE:** [John Fleurimond](http://johnfleurimond.com)
+
+# How To Get It Started :arrow_forward: :
 
 ## Available Scripts
 
@@ -130,19 +138,10 @@ Once you clone this repo, `cd` In the project directory for the frontend and bac
 
 ## Installation
 
-2. run `npm install` and ` npm audit fix ` if any fixes needed.
+2. run `npm install` in the `frontend` and `backend` folders in `fresh-fits`and ` npm audit fix ` if any fixes needed.
 
 ## Usage
 
-3. run `npm run dev`
+3. run `npm run dev` in both folders.
 
 
-## Learn More
-
-
-## portfolio:
-
-**WEBSITE:** https:johnfleurimond.com
-
-
-## Happy Coding!!!!
