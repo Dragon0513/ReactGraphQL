@@ -2,8 +2,10 @@
 
 
 [![](public/ReactGraphQL.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
+[![](public/ReactGraphQL2.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 
  # How It's Works:white_check_mark::
+This is a online store that allows use to create a account,login, sell items, add items to you cart, checkout your cart and view your order. 
 
 
 # How It's Made :nut_and_bolt:🔨 :hammer::wrench::
@@ -12,13 +14,16 @@ React.js for Building the interface along with Next.js for server side rendering
 
 Apollo Client for data management. Performing GraphQL mutations, fetching GraphQL Queries, caching GraphQL data, managing local state, error and loading UI states.
 
-{// THIS REPLACES THE NED FIR REDUX AND DATA FETCHING}
+{// THIS REPLACES THE NEED FOR REDUX AND DATA FETCHING}
 
 ## Backend
 GraphQL Yoda is an express GraphQL Server for implementating Query and mutation resolvers, custom Serverside logic, charging credit cards, sending email, performing authentication, and as well checking permissions.
 
 
 Prisma is a GraphQL Database interface that provides a set of GraphQLCRUD API's for MySQL or Postgres Database, schema Definition, Data Relationships, Queried directly from Yoga Server, and Self Hosted.
+
+## Optimizations📶.
+I finished the home items page & sell page but I need to finish the rest of the site.
 
 # My Awesome Project 🖥 & Lessons Learned :mortar_board: 
 
@@ -121,8 +126,6 @@ Then in the index.js, I brought in my variables for env, db and createServer. I 
 I also getting better with the git commands and doing `git checkout -b NewBranch` and making my changes in a separate branch and add all the changes there then switching to the master than merging it. Got used to git pull from changes on the master that the other branches didn't have and troubleshooting most of the errors.
 
 
-## Optimizations📶.
-I have to get  GraphQL going on the client side. I would Like to add concurrently, which is a NPM package that allows you to run two scripts at once.
 
 
 
