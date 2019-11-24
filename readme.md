@@ -14,7 +14,9 @@ React.js for Building the interface along with Next.js for server side rendering
 
 Apollo Client for data management. Performing GraphQL mutations, fetching GraphQL Queries, caching GraphQL data, managing local state, error and loading UI states.
 
+[![](public/projects.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 {// THIS REPLACES THE NEED FOR REDUX AND DATA FETCHING}
+
 
 ## Backend
 GraphQL Yoda is an express GraphQL Server for implementating Query and mutation resolvers, custom Serverside logic, charging credit cards, sending email, performing authentication, and as well checking permissions.
@@ -149,6 +151,6 @@ Once you clone this repo, `cd` In the project directory for the frontend and bac
 
 ## Jewel♦️
 
-3. run `killall -9 node` in the terminal if something is runnning on `port` for Macs.
+1. run `killall -9 node` in the terminal if something is runnning on `port` for Macs.
 
 
