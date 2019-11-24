@@ -14,8 +14,6 @@ React.js for Building the interface along with Next.js for server side rendering
 
 Apollo Client for data management. Performing GraphQL mutations, fetching GraphQL Queries, caching GraphQL data, managing local state, error and loading UI states.
 
-[![](public/projects.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
-{// THIS REPLACES THE NEED FOR REDUX AND DATA FETCHING}
 
 
 ## Backend
@@ -23,6 +21,8 @@ GraphQL Yoda is an express GraphQL Server for implementating Query and mutation 
 
 
 Prisma is a GraphQL Database interface that provides a set of GraphQLCRUD API's for MySQL or Postgres Database, schema Definition, Data Relationships, Queried directly from Yoga Server, and Self Hosted.
+[![](public/projects.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
+{// THIS REPLACES THE NEED FOR REDUX AND DATA FETCHING}
 
 ## Optimizations📶.
 I finished the home items page & sell page but I need to finish the rest of the site.
