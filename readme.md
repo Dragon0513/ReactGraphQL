@@ -1,20 +1,16 @@
 # :checkered_flag:What It Looks Like :checkered_flag:: 
 
-
 [![](public/ReactGraphQL.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 [![](public/ReactGraphQL2.png)](https://github.com/JOHNFLEURIMOND/ReactGraphQL)
 
  # How It's Works:white_check_mark::
 This is a online store that allows use to create a account,login, sell items, add items to you cart, checkout your cart and view your order. 
 
-
 # How It's Made :nut_and_bolt:🔨 :hammer::wrench::
 ## Frontend
 React.js for Building the interface along with Next.js for server side rendering, routing and tooling.
 
 Apollo Client for data management. Performing GraphQL mutations, fetching GraphQL Queries, caching GraphQL data, managing local state, error and loading UI states.
-
-
 
 ## Backend
 GraphQL Yoda is an express GraphQL Server for implementating Query and mutation resolvers, custom Serverside logic, charging credit cards, sending email, performing authentication, and as well checking permissions.
@@ -53,7 +49,6 @@ or
 
 
 ## import styled, { ThemeProvider, injectGlobal } from 'styled-components' 🖌🖍;
-
 
 ```
 const SearchStyles = styled.div`
